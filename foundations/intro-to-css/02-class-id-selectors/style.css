@@ -4,6 +4,10 @@
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
+.important.cooler {
+    font-size: 24px;
+}
+
 #second {
     color: #3333ff;
     font-size: 36px;
