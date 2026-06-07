@@ -10,6 +10,10 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* answer */
+  /* display: flex;
+  justify-content: center; */ /* if we define text-align attribute, we don't need this */
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +27,23 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* answer */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.content {
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */ /* IDK why using flexbox makes a gap between img and text */
+  width: 200px;
+}
+
+body {
+  /* display: flex; */ /* actually we don't need this */
+  text-align: center; /* learned from the solution */
 }
