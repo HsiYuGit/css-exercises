@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* answer */
+  padding: 15px;
+  display: flex;
+  flex-direction:row;
 }
 
 .icon {
@@ -33,6 +37,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* answer */
+  margin-right: 15px;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -66,4 +73,20 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* answer */
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text {
+  margin: 10px 0;
 }
