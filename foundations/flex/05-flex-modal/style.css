@@ -23,7 +23,7 @@ body {
   /* answer */
   padding: 15px;
   display: flex;
-  flex-direction:row;
+  /* flex-direction:row; */ /* redundant */
 }
 
 .icon {
@@ -76,16 +76,14 @@ button.cancel {
 }
 
 /* answer */
-.title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .header {
   font-weight: bold;
   font-size: 18px;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+} /* instead of build another container (the .title in the previous version) */
 
 .text {
   margin: 10px 0;
